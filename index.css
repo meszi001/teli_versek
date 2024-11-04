@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("kepek/hatter.jpg");
+}
+
+.menu {
+  margin: 30px 30px 10px 10px;
+}
+
+.main-content {
+  background-color: white;
+  max-width: 85%;
+  margin: auto;
+  min-height: 650px;
+}
+
+.main-content h1 {
+  background-image: url(kepek/fejlec.jpg);
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer {
+  padding: 1.5rem;
+  background-color: rgb(128, 128, 245);
+  text-align: center;
+}
+
+.content {
+  min-height: 650px;
+  display: grid;
+  grid-template-columns: 15% 1fr 1fr;
+  grid-column-gap: 3px;
+}
+
+.galeria img{
+    width: 150px;
+
+
+}
+.menu a{
+  background: rgb(0, 174, 255);
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  width: 50%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.galeria {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 100px;
+width: 500px;
+}
+
+.kepek-1 {
+  display: grid;
+  margin-top: 20px;
+  max-width: 90%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.4rem
+}
+
+.kepek-2 {
+  display: grid;
+  max-width: 90%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.4rem
+}
+
+.kep:nth-child(1) {
+  transform: rotate(-10deg);
+  max-width: 170px;
+  max-height: 140px;
+  padding: 10px;
+  object-fit: contain;
+  object-position: top;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+}
+
+.kep:nth-child(2) {
+  transform: rotate(-10deg);
+  max-width: 170px;
+  max-height: 140px;
+  padding: 10px;
+  object-fit: contain;
+  object-position: top;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+}
+
+.kep:nth-child(3) {
+  transform: rotate(10deg);
+  max-width: 170px;
+  max-height: 140px;
+  padding: 10px;
+  object-fit: contain;
+  object-position: top;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+}
+
+.kep:nth-child(4) {
+  transform: rotate(10deg);
+  max-width: 170px;
+  max-height: 140px;
+  padding: 10px;
+  object-fit: contain;
+  object-position: top;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+} */
+
+.main-content .galeria {
+  display: block
+}
+
+
+.versek {
+  margin-top: 50px;
+  display: block;
+  padding-inline: 15px;
+  border-top: 1px solid rgba(128, 128, 128, 0.7);
+  border-left: 1px solid rgba(128, 128, 128, 0.7);
+}
+
+.versek h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.versek p {
+  margin-bottom: 10px;
+}
